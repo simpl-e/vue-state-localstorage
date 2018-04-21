@@ -1,16 +1,16 @@
-# Vue2 generic state management with localStorage
+# Vue2 manejo genérico del state con localStorage
 
 ```js
-// Save in `store.state` and `localStorage.setItem`, and make it Vue reactive
+// Guardar en `store.state` y `localStorage.setItem`, y hacer reactivo en Vue
 window.store.set("item", item);
 ```
 
 ```js
-// Get from `store.state` or `localStorage.getItem`
+// Obtener de `store.state` o `localStorage.getItem`
 window.store.get("item");
 ```
 
 ```js
-// Get from `store.state` only (ignore localStorage)
+// Obtener de `store.state` solo (ignorar localStorage)
 window.store.state.item;
 ```
